@@ -9,7 +9,7 @@ let factual = new Factual('l4WbDnA1iuX1pLI8cD3l0Kkt2QbI9zG37eUI4QZU', 'p2MkmzSPX
 
 // console.log("factual", factual);
 
-app.get('*', (req, res) => {
+app.get('/t/*', (req, res) => {
   console.log(req.url)
 // req.url has what comes from the browser
 // let test = `/t/restaurants-us?filters={"$and":[{"cuisine":{"$includes":"vegan"}}]}&q=honolulu hi`
