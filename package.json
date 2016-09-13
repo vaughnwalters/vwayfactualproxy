@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/vaughnwalters/vwayNode/issues"
   },
-  "homepage": "https://github.com/vaughnwalters/vwayNode#readme"
+  "homepage": "https://github.com/vaughnwalters/vwayNode#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "factual-api": "^1.0.7"
+  }
 }
