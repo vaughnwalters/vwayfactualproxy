@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vaughnwalters/vwayNode#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "factual-api": "^1.0.7"
+    "factual-api": "^1.0.7",
+    "require": "^2.4.20"
   }
 }
