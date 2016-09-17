@@ -6,7 +6,7 @@ const port = process.env.PORT || 6660
 app.set('port', port)
 let Factual = require('factual-api');
 let factual = new Factual('l4WbDnA1iuX1pLI8cD3l0Kkt2QbI9zG37eUI4QZU', 'p2MkmzSPXNLNgjPjEZ4y6IlQPwohaCwhi4cdH294');
-const { get } = require('request');
+const get = require('request').get;
 
 // MIDDLEWARE (transform stream)
 app.use(function(req, res, next) {
