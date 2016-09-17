@@ -23,6 +23,6 @@
   "dependencies": {
     "express": "^4.14.0",
     "factual-api": "^1.0.7",
-    "require": "^2.4.20"
+    "request": "^2.74.0"
   }
 }
