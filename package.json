@@ -6,6 +6,11 @@
   "engines": {
     "node": "6.5.0"
   },
+  "dependencies": {
+    "express": "^4.14.0",
+    "factual-api": "^1.0.7",
+    "request": "^2.74.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -19,10 +24,5 @@
   "bugs": {
     "url": "https://github.com/vaughnwalters/vwayNode/issues"
   },
-  "homepage": "https://github.com/vaughnwalters/vwayNode#readme",
-  "dependencies": {
-    "express": "^4.14.0",
-    "factual-api": "^1.0.7",
-    "request": "^2.74.0"
-  }
+  "homepage": "https://github.com/vaughnwalters/vwayNode#readme"
 }
