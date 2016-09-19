@@ -2,9 +2,9 @@
   "name": "vwayserver",
   "version": "1.0.0",
   "description": "node.js server for vway vegan grub finder app",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
-    "node": "6"
+    "node": "6.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
