@@ -5,9 +5,7 @@ const app = express()
 const port = process.env.PORT || 6660
 app.set('port', port)
 let Factual = require('factual-api');
-let factualKey = process.env.FACTUAL_KEY;
-let factualSecret = process.env.FACTUAL_SECRET;
-let factual = new Factual('factualKey', 'factualSecret');
+let factual = new Factual('l4WbDnA1iuX1pLI8cD3l0Kkt2QbI9zG37eUI4QZU', 'p2MkmzSPXNLNgjPjEZ4y6IlQPwohaCwhi4cdH294');
 const request = require('request');
 
 // MIDDLEWARE (transform stream)
